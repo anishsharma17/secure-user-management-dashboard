@@ -1,0 +1,8 @@
+node_modules/
+src/assets
+build
+dist
+config-overrides.js
+tailwind.config.js
+postcss.config.js
+commitlint.config.js

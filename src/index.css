@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .headerbtn {
+    @apply w-24 py-2 my-5 text-white bg-indigo-900 border rounded-md;
+  }
+  .btn {
+    @apply w-24 px-4 py-2 my-6 font-sans font-mono text-white border rounded-md bg-sky-700;
+  }
+  .input {
+    @apply p-2 border rounded-md mr-60;
+  }
+  .HAMBURGER-ICON span {
+    @apply block h-0.5 w-8 animate-pulse bg-gray-600;
+  }
+  .nav-links .links {
+    @apply ml-5 font-mono text-sm font-bold whitespace-nowrap text-cyan-900 hover:text-gray-900;
+  }
+  .nav-links .links2 {
+    @apply ml-5 font-mono text-sm font-bold whitespace-nowrap text-cyan-900 hover:text-gray-900;
+  }
+  .nav-text {
+    @apply my-8 uppercase;
+  }
+  .nav-btn {
+    @apply ml-8 font-mono inline-flex items-center justify-center whitespace-nowrap rounded-md uppercase border border-transparent bg-[#128d6a] hover:bg-[#1c85b4] px-6 py-3 text-base font-medium text-white shadow-sm;
+  }
+  .btn-2 {
+    @apply inline-flex justify-start rounded-md border border-transparent bg-[#128d6a] py-2 px-4 text-sm font-medium text-white shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2;
+  }
+  .page-title {
+    @apply my-5 text-2xl text-center;
+  }
+  .title-2 {
+    @apply text-4xl font-bold;
+  }
+  .table-1 {
+    @apply w-10/12 mx-auto border border-x-2 border-t-4 border-b-8 border-t-[#128d6a];
+  }
+  .table-1-th {
+    @apply px-6 py-4 text-sm font-medium text-left text-gray-900;
+  }
+  .table-1-td-col-2 {
+    @apply px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap;
+  }
+  .table-1-td-col-1 {
+    @apply px-6 py-4 text-sm font-medium text-gray-900 whitespace-nowrap;
+  }
+  .text {
+    @apply py-6 text-3xl font-bold mr-60;
+  }
+  .texth3 {
+    @apply py-2 text-2xl font-bold mr-60;
+  }
+  .texth6 {
+    @apply text-xl font-bold;
+  }
+  .FooterText {
+    @apply text-gray-400 cursor-pointer hover:text-green-700;
+  }
+  .email {
+    @apply w-24 py-2 my-5 text-white border rounded-md hover:bg-blue-400 bg-sky-600;
+  }
+  .col--reason {
+    @apply relative mb-3 text-3xl font-bold lg:text-4xl;
+  }
+  .input-1 {
+    @apply min-w-full p-2 mt-1 text-sm border border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500;
+  }
+  .label-1 {
+    @apply after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-gray-700;
+  }
+  .text-color-1 {
+    @apply text-[#128d6a];
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "lato";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* .back-img {
+  background-image: url(./assets/joinPage_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.clip-Path-1 {
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+
+.language-list-item.disabled {
+  opacity: 0.5;
+}
